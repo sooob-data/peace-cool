@@ -1,0 +1,42 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+}
+.left {
+    width: 50%;
+    position: relative;
+}
+.right{
+    width: 50%;
+    position:relative;
+}
+main h2{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left{
+    background-image:url(assets/morning.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.right{
+    background-image: url(assets/Evening.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.right >h2{
+    color: whitesmoke;
+}
